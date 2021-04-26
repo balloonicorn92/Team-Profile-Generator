@@ -9,7 +9,7 @@ const generateEngineer = engineer => {
       <ul class="list-group bg-light" style="padding: 10px">
         <li class="list-group-item">ID: </br>${engineer.getId()}</li>
         <li class="list-group-item">E-mail: </br><a href="mailto: ${engineer.getEmail()}">${engineer.getEmail()}</a></li>
-        <li class="list-group-item">GitHub: </br><a href="github.com/${engineer.getGithub()}">${engineer.getGithub()}</a></li>
+        <li class="list-group-item">GitHub: </br><a href="https://github.com/${engineer.getGithub()}">${engineer.getGithub()}</a></li>
       </ul>
     </div>
   </div>`
